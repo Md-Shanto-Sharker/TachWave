@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@layer utilities {
+  .inter-fonts {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@keyframes smoothTyping {
+  0% {
+    width: 0ch;
+  }
+  40% {
+    width: 13ch;
+  }
+  60% {
+    width: 13ch;
+  }
+  100% {
+    width: 0ch;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: rgb(100, 44, 146);
+  }
+}
+
+.animate-smooth-typing {
+  width: 0ch;
+  animation:
+    smoothTyping 4s ease-in-out infinite,
+    blink 1s step-end infinite;
+}
