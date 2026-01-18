@@ -13,13 +13,13 @@
   </head>
   <body class="inter-fonts">
     <!-- Header Section -->
-    <header class="bg-[#1A0B2E] py-5 border-b-1 border-gray-700">
+    <header class="bg-[#1A0B2E] py-5 border-b border-gray-700">
       <nav
         class="flex items-center flex-wrap justify-between max-w-[1380px] px-4 lg:px-20 mx-auto"
       >
         <h1 class="text-4xl text-white font-extrabold">
           Tech<span
-            class="text-4xl font-extrabold bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent"
+            class="text-4xl font-extrabold bg-linear-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent"
             >Wave</span
           >
         </h1>
@@ -29,7 +29,7 @@
           <li><a href="">Host</a></li>
         </ul>
         <button
-          class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-xl px-4 py-1 text-white hidden lg:block"
+          class="bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-xl px-4 py-1 text-white hidden lg:block"
         >
           <h1>Subscribe <i class="fa-solid fa-arrow-right"></i></h1>
         </button>
@@ -40,10 +40,10 @@
     <!-- banner section -->
     <section class="">
       <section
-        class="py-10 lg:py-26 bg-[url('./assets/hero-bg.png')] lg:bg-contain bg-cover w-full bg-center"
+        class="py-10 lg:py-26 bg-[url('./assets/hero-bg.png')] lg:bg-size-[70%_100%] w-full bg-center bg-size-[100%_100%]"
       >
         <div
-          class="bg-[url('./assets/hero-circle.png')] md:w-[180px] md:h-[180px] lg:w-[250px] lg:h-[250px] w-[200px] h-[180px] bg-no-repeat bg-center bg-contain flex items-center justify-center mx-auto mt-10 relative"
+          class="bg-[url('./assets/hero-circle.png')] md:w-[180px] md:h-[180px] lg:w-[250px] lg:h-[250px] 2xl:w-[500px] 2xl:h-[500px] w-[200px] h-[180px] bg-no-repeat bg-center bg-contain flex items-center justify-center mx-auto mt-10 relative"
         >
           <img
             class="w-[50px] md:w-[60px] lg:w-[30%]"
@@ -52,9 +52,9 @@
           />
 
           <div
-            class="bg-[#00FF88] rounded-xl px-2 absolute md:mb-[140px] md:ml-28 ml-32 mb-32 lg:ml-32 lg:mb-56"
+            class="bg-[#00FF88] rounded-xl px-2 absolute md:mb-[140px] md:ml-28 ml-32 mb-32 lg:ml-32 lg:mb-56 2xl:ml-56 2xl:mb-[450px]"
           >
-            <h1>New</h1>
+            <h1 class="2xl:text-2xl">New</h1>
           </div>
         </div>
 
@@ -71,7 +71,7 @@
 
           <div class="flex gap-5 justify-center">
             <button
-              class="bg-gradient-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-2xl px-4 py-1 text-white"
+              class="bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] rounded-2xl px-4 py-1 text-white"
             >
               <div class="flex gap-2 items-center">
                 <img src="./assets/spotify.png" alt="" />
@@ -348,19 +348,19 @@
 
     <!-- Footer -->
     <footer
-      class="bg-[url('./assets/footer-bg.png')] bg-cover bg-center pt-10 pb-20 text-white"
+      class="bg-[url('./assets/footer-bg.png')] bg-cover bg-center pt-10 pb-10 text-white"
     >
       <h1 class="text-4xl text-white font-extrabold text-center mb-10">
         Tech<span
-          class="text-4xl font-extrabold bg-gradient-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent"
+          class="text-4xl font-extrabold bg-linear-to-t from-[#F7E93F] via-[#FB09B4] to-[#9100F8] bg-clip-text text-transparent"
           >Wave</span
         >
       </h1>
 
       <div
-        class="lg:flex justify-between items-center max-w-[1380px] px-4 lg:px-28 mx-auto"
+        class="flex flex-col lg:flex-row lg:justify-center gap-5 lg:gap-30 items-center max-w-[1380px] px-4 lg:px-28 mx-auto"
       >
-        <div class="flex gap-8 lg:gap-16 items-center justify-center">
+        <div class="flex gap-8 lg:gap-10 items-center justify-center">
           <div class="flex gap-2 items-center">
             <img class="w-5 h-5" src="./assets/spotify.png" alt="" />
             <p class="text-[16px] opacity-60">Spotify</p>
@@ -371,7 +371,7 @@
           </div>
         </div>
 
-        <div class="flex gap-8 lg:gap-16 items-center justify-center mt-5">
+        <div class="flex gap-8 lg:gap-10 items-center justify-center">
           <div class="flex gap-2 items-center">
             <img class="w-5 h-4" src="./assets/youtube-podcast.png" alt="" />
             <p class="text-[16px] opacity-60">YouTube</p>
